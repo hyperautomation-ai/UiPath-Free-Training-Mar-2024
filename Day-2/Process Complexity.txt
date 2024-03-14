@@ -1,0 +1,66 @@
+Process complexity :-
+
+no of steps in the process     --> <8 - 8-15 - >15 
+no of app in the process       --> <5 - 5-8  - >8 
+no of screens in the app       --> <10 -10-15 - >15 
+no of fields in the screens    --> <25 - 25-40 - >40
+AHT                            --> <5  - 5-10 - >10
+
+
+
+loan approval process :- banking domian 
+
+1. downlaod - banking web 
+2. read all ur validate - ecxel  
+3.enter details in web - cibil web 2
+4. generate cibil 
+5 validate cibil AccountNumber:-9652996619
+6 mail 
+
+6 steps 
+3 applications 
+
+banking domain - 
+
+loan approval process 
+
+volume :- 500 application for me 
+
+persons are required to handle this 500 app ???
+
+code loan 
+
+1 - loan approval 500 app - 4hr - 6am - 10am - 4bots 
+2 - kyc process   100 app - 8hr - 6am - 2pm - 5 bots - machine - 1fte
+3 - amc process - 10 bots 24hrs - 1000 tx  
+
+load balancing - admin - project -
+
+how many licenses are required here ??? - 9 bots 
+  5 bots 
+
+1 app - 2 mins 
+1 hr  - 30 app 
+8 hr - 240 app  
+4hr - 120 app * 4 = 500
+24 hr 1 bot 
+
+how many bots are req ??? -- 2 bots  - 10 lakhs - 20 lakhs 
+
+10 fte -- 1lakhs -- 1o lakhs   - 500 applications - ROI 
+
+1app - transaction  - 10 min - AHT  
+1hr - 6 app 
+8hr - 50 app
+
+dowload  - excel
+read 
+enter details  - web 
+banking portal - cibil score 
+<700 rej 
+>700 acc
+mail  - gmail /outlook 
+
+3 applications 
+7 steps 
+AHT 2 mins
