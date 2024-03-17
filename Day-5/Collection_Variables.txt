@@ -1,0 +1,198 @@
+Collection variables : 
+
+1. Array
+
+2. list
+
+3. Dictionary
+
+4. DataTable
+
+strName="Rajesh" - scalar -string
+
+strName={"Rajesh","suresh","kamesh"} - Array<string>
+
+
+
+Account Number :-9110767267
+
+1. Array  : it is a collection of similar type of elements.
+
+  
+    collection of string variables
+
+    collection of integer variables
+
+  
+syntax :
+
+To Create array variable , need to choose below name space in the variabl type.
+
+Name space : System.String[] or Array of [T] - T- DataType
+
+Syntax to assign values to array :
+
+  arr_Variable = {"value1","value2","value3"..."valuen"}
+
+    arrayName[] <string> = {"value1","value2","value3","value4"}
+
+
+    arrayPrices[] <int> = {10,20,30,40,50}
+
+    to retrieve specified value from array :          
+                arrayname(index)
+
+    strNames[] = {"ram","ravi","raju","prasad"}
+
+for each  :
+
+   --> It repeats each value in the collection.
+
+  syntax :
+
+     arr_Names={"Quality","Thought","Ramesh","suresh"}
+
+    for each item in collection_Name(arr_Names)
+
+          message box item
+
+         1 st iteration - Quality - item
+
+         2 nd iteration - Thought - item    
+
+         3 rd iteration - Ramesh  - item
+
+         4 th iteration - Suresh  - item
+
+  Microsoft stock value is  1034.34USD
+  infosys stock value is  105.3INR
+
+
+2.List  : it is a collection of similar type of elements.
+
+
+   syntax : 
+
+  Name Space : System.Collections.Generic.List<T>
+               T- DataType
+
+                List<String> where T- String
+
+
+  list_Variable<String> = New List(of String) from {"value1","value2","value3"}
+
+  list_Variable<int> = new list(of int) from {10,20,30,40}
+
+  list variable type is : System.Collections.Generic.List<T>: List<String>
+
+
+Dictionary  :
+
+  --> It is a key value pair
+
+
+syntax for Creating Dictionary  :
+
+
+  NameSpace :  System.Collections.Generic.Dictionary<TKey, TValue>
+ TKey - DataType of key
+ TValue - DataType of value
+
+ Example: Dictionary<String,String>
+          Dictioanry<String,int32>
+
+
+TO assign values to dictionary
+
+username - kiran 
+password - xyz123
+
+
+ dict_Variable<String,String> = New Dictionary(of String,String) From {{"key1","value1"},{"key2","value2"},{"key3","value3"},{"key4","value4"}}
+
+
+dict_RPATOOLs = New Dicionary (of String,String)
+         from {{"UIPath","User Interface Path"}}
+
+String Operations :- 
+
+Length :
+
+input :- kiran 
+output :- 5 
+
+Upper Case 
+input :- kiran 
+output :- KIRAN
+
+Lower case 
+
+input :- KIran 
+output :- kiran
+
+equals :- Bollean :- T/F
+conatins :- Bollean :- T/F
+join :- combining to variables 
+
+split :- 
+
+kiran-sai - basheer -siva - bobby 
+
+kiran
+sai
+basheer
+siva
+bobby
+
+
+
+substring 
+
+kiran uipath 
+
+uipath 
+
+indexof :-
+
+kiran uipath 
+
+uipath  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+    

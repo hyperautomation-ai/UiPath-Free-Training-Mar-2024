@@ -1,0 +1,195 @@
+Uipath Variables :
+
+--> A Variable is a place holder that refers to a computer memory location where we can store the program information.
+
+-->Variables are used to store multiples  type of data in uipath studio.
+
+--> The data stored within a variable is called value, and it can be of multiple
+     types.
+
+Types of Variables :
+
+ There are mainly two types of variables
+
+ 1. Scalar variables
+
+ 2. Collection variables
+
+
+
+1. Scalar Variables :
+
+    --> These variables holds single value of fixed type.
+
+     1. Generic Variables - text,int,boolea.etc
+
+     2. String variables - text---"test hello world 58869"
+
+     3. Number variables  - int --- 0808080
+
+     4.Boolen Variables  - false/True ---- 
+
+     5.Date and Time variables
+
+
+Generic Variables :
+
+ The generic value variable is a type of variable with a wide range that can store any kind of data, including text, numbers, dates and arrays, and is particular to UiPath Studio.
+
+
+String(text) Varibles :
+
+A text or string variable is a type of variable that can store only strings. These types of variables can be used to store any information such as employee names, usernames or any other string.
+
+Note : All strings in UiPath have to be placed in between quotes.
+
+examples = "kiran"
+
+
+Boolean Variables(True or Flase)
+
+Boolean variable is a type of variable that only has two possible values, true or false. These variables enable you to make decisions, and thus have a better control over your flow.
+
+
+Number variables : 
+
+Number variables are also known as integer or Int32, and are used to store numeric information. They can be used to perform equations or comparisons, pass important data and many others.
+
+
+Date and Time variables :
+
+The date and time variable is a type of variable that enables you to store information about any date and time. This type of variable can be found in the Browse and Select a .Net Type window, under the System namespace (System.DateTime)
+
+DataTable Variables :
+
+DataTable variables represent a type of variable that can store big pieces of information, and act as a database or a simple spreadsheet with rows and columns. They can be found in the Browse and Select a .Net Type window, under the System.Data namespace (System.Data.DataTable)
+
+
+Array Variables : 
+
+Array variables are variables that can store collection of values of same type.
+
+ArrayNames[] =  {"ram","ravi","krishna","prasad","ravi","kumar"}
+
+List Variables :
+
+List Variables are variables that can store collection of values of same type.
+
+lstValues = New List(of String) from {"ram","ravi","krishna","hari","kumar"}
+
+system.collections.generic.List<String>
+
+
+
+Dictionary Variables :
+
+Dictionary Variables are  variables that can store values based on keys.
+
+dictValues = New Dictionary(of String,of String) from {{"key","value"},{"key1","vlaue2"},}
+
+{fb,microsoft,infosys,ibm,Accenture}
+
+Naming Best Practices :
+
+Variable Type	Variable Name
+Generic Value 	genVariableName
+Text		strVariableName
+Number		intVariableName
+True or False	boolVariableName
+Date and Time	timVariableName
+Data Table	datVariableName
+
+
+Collection variables : 
+
+
+1. Array
+
+2. list
+
+3. Dictionary
+
+4. DataTable
+
+
+
+1. Array  : it is a collection of similar type of elements.
+
+  
+    collection of string variables
+
+    collection of integer variables
+
+  
+syntax :
+
+    arrayName[] <string> = {"value1","value2","value3","value4"}
+
+
+    arrayPrices[] <int> = {10,20,30,40,50}
+
+
+    to retrieve specified value from array :  arrayname(index)
+
+
+
+
+    strNames[] = {"ram","ravi","raju","prasad"}
+
+    strName = 
+
+
+2.List  : it is a collection of similar type of elements.
+
+
+   syntax : 
+
+  list_Variable<String> = New List(of String) from {"value1","value2","value3"}
+
+  list_Variable<int> = new list(of int) from {10,20,30,40}
+
+  list variable type is : System.Collections.Generic.List<T>: List<String>
+
+
+
+
+
+
+
+ aary  = {  "microsoft", fb, ibm,accenture,infosys }
+
+
+
+
+
+ stock price of  microsoft is   234.45 USD
+
+ stock price of  infosys   is   233.445INR
+
+
+array<string>
+
+array<int>
+
+list<string>
+
+
+Addition of two number
+
+
+  int a, b
+
+a = 29
+
+b = 30
+
+c = a+b
+
+print c
+
+
+
+
+
+
+
