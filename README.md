@@ -5,3 +5,4 @@ Day 2 - RPA Introduction , Development LifeCycle. -------> Recording: https://yo
 Day-3 - UiPath Products Over View ----------------> Recording : https://youtu.be/r-A1eEXza8E -----> Quiz: https://forms.office.com/r/XDWhsWXG5d
 Day-4 - UiPath Studio Over View , Types of Workflows ------> Recording : https://youtu.be/vBsiLx_7ftA -----> Installation Steps for UiPath -------->https://youtu.be/kmEVbiJsx0A?si=4pvEJojLXdSYtbGK
 Day-5 - Variables, Arguments & String Methods  ----------------> Recording : https://www.youtube.com/watch?v=Gc1hkHtJs70 -----> Quiz: https://forms.office.com/r/45LzDwuiAn
+Day-6 - Control Statemets -------------------------> Recording: https://youtu.be/RJHFixaQbUs -----> Quiz: https://forms.office.com/r/2nkvm8tTa4
